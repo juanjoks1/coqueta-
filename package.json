@@ -1,0 +1,26 @@
+{
+  "name": "coqueta-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjoks1/coqueta-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanjoks1/coqueta-/issues"
+  },
+  "homepage": "https://github.com/juanjoks1/coqueta-#readme",
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "5.3.0",
+    "3dmol": "2.5.5",
+    "fflate": "0.8.2",
+    "three": "0.158.0"
+  }
+}
