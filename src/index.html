@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Transportadores de monoaminas</title>
+<meta name="description" content="Visor 3D educativo de DAT, SERT, NET y VMAT2: esquema animado y estructuras reales del PDB.">
+<!-- Las versiones están fijadas. El build (scripts/build.py) sustituye estas etiquetas por copias locales
+     de las mismas versiones (node_modules) para que dist/visor.html funcione sin red. -->
+<link rel="stylesheet" href="estilos.css" data-inline="css">
+<script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js" data-lib="three"></script>
+<script src="https://cdn.jsdelivr.net/npm/3dmol@2.5.5/build/3Dmol-min.js" data-lib="3dmol"></script>
+<script src="https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js" data-lib="fflate"></script>
+</head>
+<body>
+<div class="cabecera">
+<header class="cab">
+  <h1>Transportadores de monoaminas</h1>
+  <button class="boton-icono" id="btn-tema" aria-label="Cambiar tema claro/oscuro" title="Tema">◐</button>
+</header>
+
+<nav class="barra transportadores" aria-label="Transportador">
+  <button class="chip" data-tr="DAT" aria-pressed="true">DAT</button>
+  <button class="chip" data-tr="SERT" aria-pressed="false">SERT</button>
+  <button class="chip" data-tr="NET" aria-pressed="false">NET</button>
+  <button class="chip" data-tr="VMAT2" aria-pressed="false">VMAT2</button>
+</nav>
+<div class="modos" role="group" aria-label="Modo de vista">
+  <button class="seg" data-modo="esquema" aria-pressed="true">Esquema animado</button>
+  <button class="seg" data-modo="estructura" aria-pressed="false">Estructura real</button>
+</div>
+</div>
+
+<main>
+  <div class="col-izq">
+    <section class="lienzo" id="lienzo">
+      <div class="vista" id="vista-esquema"></div>
+      <div class="vista" id="vista-estructura" hidden></div>
+      <div class="lado arriba" id="lado-arriba">Extracelular</div>
+      <div class="lado abajo" id="lado-abajo">Citosol</div>
+      <div class="fase" id="fase"></div>
+      <div class="aviso3d" id="aviso3d"></div>
+      <div class="cargando oculto" id="cargando">Cargando estructura…</div>
+    </section>
+
+    <section class="controles" id="ctl-esquema">
+      <button class="boton" id="btn-play" aria-pressed="true">⏸ Pausa</button>
+      <button class="boton" id="btn-velocidad">Velocidad ×1</button>
+      <button class="boton" id="btn-tm-esquema" aria-pressed="true">Números TM</button>
+    </section>
+
+    <section class="controles" id="ctl-estructura" hidden>
+      <div class="barra farmacos" id="estructuras-chips" style="padding:0; flex: 1 1 100%"></div>
+      <button class="boton primario" id="btn-sitio">Ver sitio de unión</button>
+      <button class="boton" id="btn-completa">Vista completa</button>
+      <button class="boton" id="btn-membrana" aria-pressed="true">Membrana</button>
+      <button class="boton" id="btn-etiquetas" aria-pressed="true">Números TM</button>
+      <button class="boton" id="btn-morph" aria-pressed="false">Morph</button>
+      <label class="rango" id="morph-rango" hidden>
+        <span id="morph-a">A</span>
+        <input type="range" id="morph-t" min="0" max="100" value="0" aria-label="Posición del morph">
+        <span id="morph-b">B</span>
+      </label>
+    </section>
+  </div>
+
+  <div class="col-der">
+    <section class="tarjeta" id="panel-farmacos">
+      <h2>Fármacos</h2>
+      <div class="barra farmacos" id="farmacos-chips" style="padding:0"></div>
+      <div class="nota-farmaco" id="farmaco-nota"></div>
+    </section>
+
+    <details class="tarjeta" id="panel-contactos" open>
+      <summary>Residuos en contacto con el ligando (≤ 4 Å)</summary>
+      <div class="cuerpo" id="contactos"></div>
+    </details>
+
+    <details class="tarjeta" id="panel-compuertas">
+      <summary>Compuertas y conformación</summary>
+      <div class="cuerpo" id="compuertas"></div>
+    </details>
+
+    <details class="tarjeta" id="panel-tm">
+      <summary>Hélices TM1–TM12</summary>
+      <div class="cuerpo" id="tm"></div>
+    </details>
+
+    <details class="tarjeta" id="panel-ficha" open>
+      <summary>Ficha del transportador</summary>
+      <div class="cuerpo" id="ficha"></div>
+    </details>
+
+    <details class="tarjeta" id="panel-fuentes">
+      <summary>Fuentes, medido frente a inferido</summary>
+      <div class="cuerpo" id="fuentes"></div>
+    </details>
+  </div>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="fichas.js" data-inline="js"></script>
+<script src="esquema.js" data-inline="js"></script>
+<script src="estructura.js" data-inline="js"></script>
+<script src="app.js" data-inline="js"></script>
+</body>
+</html>

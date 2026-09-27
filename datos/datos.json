@@ -1,0 +1,5421 @@
+{
+ "generado": "2026-09-27T09:11:58+00:00",
+ "criterios": {
+  "contacto_max": 4.0,
+  "puente_salino": 4.0,
+  "puente_h": 3.5,
+  "cation_pi_d": 6.0,
+  "cation_pi_ang": 40.0,
+  "apil_paralelo_d": 5.5,
+  "apil_paralelo_ang": 30.0,
+  "apil_t_d": 6.0,
+  "apil_t_ang": 60.0,
+  "hidrofobico": 4.0,
+  "enlace_max": 1.95,
+  "compuerta_salino_cerrada": 4.5,
+  "compuerta_aromatica_cerrada": 8.0,
+  "membrana_semiespesor_corte": 14.0,
+  "membrana_extension": 18.0,
+  "tm_min_residuos": 12,
+  "espesor_tipico": 30.0
+ },
+ "transportadores": {
+  "DAT": {
+   "uniprot": "Q01959",
+   "gen": "SLC6A3",
+   "plegamiento": "LeuT",
+   "uniprot_disponible": false,
+   "estructuras": [
+    {
+     "id": "8Y2D",
+     "transportador": "DAT",
+     "titulo": "Cryo-EM structure of human dopamine transporter in complex with dopamine",
+     "metodo": "Electron Microscopy",
+     "resolucion": 2.8,
+     "cita": {
+      "titulo": "Dopamine reuptake and inhibitory mechanisms in human dopamine transporter.",
+      "revista": "Nature",
+      "anio": "2024",
+      "doi": "10.1038/s41586-024-07796-0"
+     },
+     "deposito": "2024-01-25",
+     "cadena": "A",
+     "residuos": [
+      68,
+      620
+     ],
+     "huecos": [
+      [
+       192,
+       208
+      ],
+      [
+       258,
+       265
+      ]
+     ],
+     "n_atomos_proteina": 4171,
+     "mutaciones": [],
+     "ligando": {
+      "codigo": "LDP",
+      "codigo_pdb": "LDP",
+      "nombre": "L-DOPAMINE",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 701,
+        "residuos": [
+         {
+          "resi": 79,
+          "resn": "ASP",
+          "dmin": 2.56,
+          "tipos": [
+           "puente salino"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OD1",
+            "lig": "N1",
+            "d": 3.93
+           },
+           {
+            "tipo": "puente salino",
+            "prot": "OD2",
+            "lig": "N1",
+            "d": 2.56
+           }
+          ]
+         },
+         {
+          "resi": 149,
+          "resn": "SER",
+          "dmin": 2.69,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "O2",
+            "d": 2.69
+           }
+          ]
+         },
+         {
+          "resi": 152,
+          "resn": "VAL",
+          "dmin": 3.87,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.87
+           }
+          ]
+         },
+         {
+          "resi": 153,
+          "resn": "GLY",
+          "dmin": 3.29,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "N",
+            "lig": "O2",
+            "d": 3.29
+           }
+          ]
+         },
+         {
+          "resi": 156,
+          "resn": "TYR",
+          "dmin": 3.73,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.9
+           }
+          ]
+         },
+         {
+          "resi": 320,
+          "resn": "PHE",
+          "dmin": 3.36,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "catión–π"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "N1",
+            "d": 3.36
+           },
+           {
+            "tipo": "catión–π",
+            "prot": "anillo CG/CD1",
+            "lig": "N1",
+            "d": 4.84
+           }
+          ]
+         },
+         {
+          "resi": 326,
+          "resn": "PHE",
+          "dmin": 4.0,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C1/C4",
+            "d": 5.33,
+            "angulo": 65.4
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 4.0
+           }
+          ]
+         },
+         {
+          "resi": 422,
+          "resn": "SER",
+          "dmin": 3.54,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.73
+           }
+          ]
+         },
+         {
+          "resi": 423,
+          "resn": "ALA",
+          "dmin": 3.66,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 426,
+          "resn": "GLY",
+          "dmin": 3.91,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.91
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [
+         {
+          "ion": "NA",
+          "resi": 702,
+          "d_ligando": 5.34
+         },
+         {
+          "ion": "NA",
+          "resi": 703,
+          "d_ligando": 7.61
+         },
+         {
+          "ion": "CL",
+          "resi": 704,
+          "d_ligando": 9.11
+         }
+        ],
+        "centro": [
+         -1.33,
+         -1.96,
+         -3.79
+        ],
+        "n_cargados": [
+         "N1"
+        ],
+        "anillos": [
+         [
+          "C1",
+          "C4",
+          "C2",
+          "C6",
+          "C5",
+          "C3"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": -1.96
+       }
+      ]
+     },
+     "iones": [
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 702,
+       "cadena": "A",
+       "pos": [
+        6.22,
+        0.03,
+        1.94
+       ]
+      },
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 703,
+       "cadena": "A",
+       "pos": [
+        7.85,
+        -1.31,
+        -5.09
+       ]
+      },
+      {
+       "ion": "CL",
+       "simbolo": "Cl⁻",
+       "resi": 704,
+       "cadena": "A",
+       "pos": [
+        6.49,
+        3.47,
+        5.83
+       ]
+      }
+     ],
+     "orientacion": {
+      "fuente": "geometría",
+      "detalle": "normal = autovector principal de los ejes de las hélices TM (iterado con la asignación TM); centro = media de los centros de las hélices; N-terminal hacia −y",
+      "espesor": 30.0,
+      "espesor_fuente": "inferido: valor típico (30 Å); OPM no tiene esta entrada",
+      "inferido": true
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 68,
+       "fin": 93,
+       "residuos": 26,
+       "inclinacion": 29.2,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 97,
+       "fin": 119,
+       "residuos": 23,
+       "inclinacion": 20.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 140,
+       "fin": 170,
+       "residuos": 31,
+       "inclinacion": 45.7,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 237,
+       "fin": 257,
+       "residuos": 21,
+       "inclinacion": 14.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 266,
+       "fin": 284,
+       "residuos": 19,
+       "inclinacion": 29.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 305,
+       "fin": 333,
+       "residuos": 29,
+       "inclinacion": 39.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 342,
+       "fin": 365,
+       "residuos": 24,
+       "inclinacion": 6.5,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 406,
+       "fin": 435,
+       "residuos": 30,
+       "inclinacion": 39.8,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 445,
+       "fin": 465,
+       "residuos": 21,
+       "inclinacion": 14.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 467,
+       "fin": 495,
+       "residuos": 29,
+       "inclinacion": 35.3,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 518,
+       "fin": 545,
+       "residuos": 28,
+       "inclinacion": 40.2,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 554,
+       "fin": 577,
+       "residuos": 24,
+       "inclinacion": 10.2,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "haz central": [
+       1,
+       2,
+       6,
+       7
+      ],
+      "andamio": [
+       3,
+       4,
+       8,
+       9
+      ],
+      "periféricas": [
+       5,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       68,
+       78
+      ],
+      [
+       79,
+       84
+      ],
+      [
+       85,
+       93
+      ],
+      [
+       98,
+       125
+      ],
+      [
+       129,
+       134
+      ],
+      [
+       140,
+       170
+      ],
+      [
+       211,
+       220
+      ],
+      [
+       223,
+       227
+      ],
+      [
+       237,
+       255
+      ],
+      [
+       267,
+       287
+      ],
+      [
+       289,
+       298
+      ],
+      [
+       309,
+       323
+      ],
+      [
+       327,
+       334
+      ],
+      [
+       341,
+       375
+      ],
+      [
+       378,
+       382
+      ],
+      [
+       388,
+       397
+      ],
+      [
+       403,
+       438
+      ],
+      [
+       444,
+       461
+      ],
+      [
+       462,
+       465
+      ],
+      [
+       467,
+       479
+      ],
+      [
+       480,
+       498
+      ],
+      [
+       500,
+       512
+      ],
+      [
+       517,
+       542
+      ],
+      [
+       554,
+       570
+      ],
+      [
+       570,
+       583
+      ],
+      [
+       586,
+       596
+      ],
+      [
+       600,
+       606
+      ],
+      [
+       609,
+       613
+      ]
+     ],
+     "compuertas": [
+      {
+       "nombre": "Compuerta extracelular Tyr156–Phe320",
+       "lado": "extracelular",
+       "tipo": "aromatica",
+       "residuos": [
+        "Tyr156",
+        "Phe320"
+       ],
+       "atomos": [
+        [
+         "OH"
+        ],
+        [
+         "CZ"
+        ]
+       ],
+       "distancia": 7.03,
+       "par": "OH–CZ",
+       "umbral": 8.0,
+       "estado": "cerrada"
+      },
+      {
+       "nombre": "Puente salino extracelular Arg85–Asp476",
+       "lado": "extracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg85",
+        "Asp476"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OD1",
+         "OD2"
+        ]
+       ],
+       "distancia": 3.57,
+       "par": "NE–OD1",
+       "umbral": 4.5,
+       "estado": "cerrada"
+      },
+      {
+       "nombre": "Puente salino intracelular Arg60–Asp436",
+       "lado": "intracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg60",
+        "Asp436"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OD1",
+         "OD2"
+        ]
+       ],
+       "distancia": null,
+       "estado": "no medible",
+       "nota": "residuo o átomo no resuelto en esta estructura"
+      }
+     ],
+     "conformacion": {
+      "esperada": "ocluido",
+      "inferida": "ocluido",
+      "motivo": "tapa cerrada; compuerta intracelular no medible; Na⁺ resuelto en el sitio",
+      "regla": "Regla explícita (inferido), plegamiento LeuT:\n    1) tapa aromática extracelular (Tyr OH – Phe CZ) > 8 Å → 'abierto hacia fuera';\n    2) si está cerrada y se midió la compuerta intracelular (puente salino Arg–Asp): abierta → 'abierto hacia\n       dentro', cerrada → 'ocluido';\n    3) si no se midió la intracelular: hay Na⁺ resuelto en la estructura → 'ocluido' (el Na2 se libera al abrir\n       hacia dentro); no hay Na⁺ → 'abierto hacia dentro'.\n    El puente salino extracelular Arg–Asp/Glu se informa pero no decide (en 5I71 está formado con la tapa abierta).",
+      "coincide": true,
+      "titulo_pdb_menciona": null
+     },
+     "apertura_mfs": null,
+     "archivo": "procesadas/8Y2D.pdb",
+     "avisos": []
+    },
+    {
+     "id": "8Y2G",
+     "transportador": "DAT",
+     "titulo": "Cryo-EM structure of human dopamine transporter in complex with methylphenidate",
+     "metodo": "Electron Microscopy",
+     "resolucion": 2.83,
+     "cita": {
+      "titulo": "Dopamine reuptake and inhibitory mechanisms in human dopamine transporter.",
+      "revista": "Nature",
+      "anio": "2024",
+      "doi": "10.1038/s41586-024-07796-0"
+     },
+     "deposito": "2024-01-25",
+     "cadena": "A",
+     "residuos": [
+      59,
+      620
+     ],
+     "huecos": [
+      [
+       192,
+       208
+      ]
+     ],
+     "n_atomos_proteina": 4302,
+     "mutaciones": [
+      {
+       "resi": "67",
+       "pdb": "VAL",
+       "uniprot": "ILE",
+       "detalle": "conflict"
+      }
+     ],
+     "ligando": {
+      "codigo": "A1D5U",
+      "codigo_pdb": "MPH",
+      "nombre": "Dexmethylphenidate",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 701,
+        "residuos": [
+         {
+          "resi": 76,
+          "resn": "PHE",
+          "dmin": 3.33,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C13/C15",
+            "d": 5.79,
+            "angulo": 72.6
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.63
+           }
+          ]
+         },
+         {
+          "resi": 77,
+          "resn": "ALA",
+          "dmin": 3.77,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 79,
+          "resn": "ASP",
+          "dmin": 3.53,
+          "tipos": [
+           "puente salino"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OD2",
+            "lig": "N11",
+            "d": 3.53
+           }
+          ]
+         },
+         {
+          "resi": 152,
+          "resn": "VAL",
+          "dmin": 3.62,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.62
+           }
+          ]
+         },
+         {
+          "resi": 156,
+          "resn": "TYR",
+          "dmin": 3.89,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C13/C15",
+            "d": 5.13,
+            "angulo": 71.9
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.89
+           }
+          ]
+         },
+         {
+          "resi": 320,
+          "resn": "PHE",
+          "dmin": 3.78,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 321,
+          "resn": "SER",
+          "dmin": 3.97,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 322,
+          "resn": "LEU",
+          "dmin": 3.76,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 326,
+          "resn": "PHE",
+          "dmin": 3.72,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C13/C15",
+            "d": 5.28,
+            "angulo": 63.6
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.72
+           }
+          ]
+         },
+         {
+          "resi": 422,
+          "resn": "SER",
+          "dmin": 2.83,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.8
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [
+         {
+          "ion": "CL",
+          "resi": 704,
+          "d_ligando": 7.78
+         },
+         {
+          "ion": "NA",
+          "resi": 705,
+          "d_ligando": 4.41
+         },
+         {
+          "ion": "NA",
+          "resi": 706,
+          "d_ligando": 6.58
+         }
+        ],
+        "centro": [
+         -0.09,
+         -0.9,
+         -0.83
+        ],
+        "n_cargados": [
+         "N11"
+        ],
+        "anillos": [
+         [
+          "C13",
+          "C15",
+          "C17",
+          "C12",
+          "C14",
+          "C16"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": -0.9
+       }
+      ]
+     },
+     "iones": [
+      {
+       "ion": "CL",
+       "simbolo": "Cl⁻",
+       "resi": 704,
+       "cadena": "A",
+       "pos": [
+        7.88,
+        1.82,
+        6.44
+       ]
+      },
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 705,
+       "cadena": "A",
+       "pos": [
+        6.69,
+        -0.24,
+        3.5
+       ]
+      },
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 706,
+       "cadena": "A",
+       "pos": [
+        6.98,
+        -0.76,
+        -4.83
+       ]
+      }
+     ],
+     "orientacion": {
+      "fuente": "geometría",
+      "detalle": "normal = autovector principal de los ejes de las hélices TM (iterado con la asignación TM); centro = media de los centros de las hélices; N-terminal hacia −y",
+      "espesor": 30.0,
+      "espesor_fuente": "inferido: valor típico (30 Å); OPM no tiene esta entrada",
+      "inferido": true
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 65,
+       "fin": 91,
+       "residuos": 27,
+       "inclinacion": 30.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 97,
+       "fin": 121,
+       "residuos": 25,
+       "inclinacion": 32.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 138,
+       "fin": 168,
+       "residuos": 31,
+       "inclinacion": 43.2,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 237,
+       "fin": 259,
+       "residuos": 23,
+       "inclinacion": 24.2,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 260,
+       "fin": 282,
+       "residuos": 23,
+       "inclinacion": 31.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 308,
+       "fin": 334,
+       "residuos": 27,
+       "inclinacion": 41.6,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 341,
+       "fin": 363,
+       "residuos": 23,
+       "inclinacion": 7.5,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 409,
+       "fin": 436,
+       "residuos": 28,
+       "inclinacion": 34.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 444,
+       "fin": 464,
+       "residuos": 21,
+       "inclinacion": 18.7,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 468,
+       "fin": 497,
+       "residuos": 30,
+       "inclinacion": 36.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 517,
+       "fin": 543,
+       "residuos": 27,
+       "inclinacion": 40.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 554,
+       "fin": 577,
+       "residuos": 24,
+       "inclinacion": 11.3,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "haz central": [
+       1,
+       2,
+       6,
+       7
+      ],
+      "andamio": [
+       3,
+       4,
+       8,
+       9
+      ],
+      "periféricas": [
+       5,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       65,
+       78
+      ],
+      [
+       79,
+       83
+      ],
+      [
+       84,
+       93
+      ],
+      [
+       98,
+       125
+      ],
+      [
+       135,
+       138
+      ],
+      [
+       139,
+       170
+      ],
+      [
+       211,
+       221
+      ],
+      [
+       223,
+       227
+      ],
+      [
+       237,
+       254
+      ],
+      [
+       258,
+       270
+      ],
+      [
+       271,
+       286
+      ],
+      [
+       290,
+       296
+      ],
+      [
+       309,
+       322
+      ],
+      [
+       327,
+       334
+      ],
+      [
+       341,
+       376
+      ],
+      [
+       378,
+       382
+      ],
+      [
+       386,
+       391
+      ],
+      [
+       393,
+       398
+      ],
+      [
+       399,
+       401
+      ],
+      [
+       403,
+       419
+      ],
+      [
+       420,
+       438
+      ],
+      [
+       439,
+       442
+      ],
+      [
+       444,
+       460
+      ],
+      [
+       461,
+       463
+      ],
+      [
+       467,
+       479
+      ],
+      [
+       483,
+       497
+      ],
+      [
+       500,
+       512
+      ],
+      [
+       517,
+       526
+      ],
+      [
+       526,
+       542
+      ],
+      [
+       554,
+       570
+      ],
+      [
+       570,
+       583
+      ],
+      [
+       586,
+       596
+      ],
+      [
+       597,
+       599
+      ],
+      [
+       600,
+       607
+      ],
+      [
+       613,
+       618
+      ]
+     ],
+     "compuertas": [
+      {
+       "nombre": "Compuerta extracelular Tyr156–Phe320",
+       "lado": "extracelular",
+       "tipo": "aromatica",
+       "residuos": [
+        "Tyr156",
+        "Phe320"
+       ],
+       "atomos": [
+        [
+         "OH"
+        ],
+        [
+         "CZ"
+        ]
+       ],
+       "distancia": 15.07,
+       "par": "OH–CZ",
+       "umbral": 8.0,
+       "estado": "abierta"
+      },
+      {
+       "nombre": "Puente salino extracelular Arg85–Asp476",
+       "lado": "extracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg85",
+        "Asp476"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OD1",
+         "OD2"
+        ]
+       ],
+       "distancia": 5.16,
+       "par": "NH2–OD2",
+       "umbral": 4.5,
+       "estado": "abierta"
+      },
+      {
+       "nombre": "Puente salino intracelular Arg60–Asp436",
+       "lado": "intracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg60",
+        "Asp436"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OD1",
+         "OD2"
+        ]
+       ],
+       "distancia": 3.24,
+       "par": "NH1–OD1",
+       "umbral": 4.5,
+       "estado": "cerrada"
+      }
+     ],
+     "conformacion": {
+      "esperada": "abierto hacia fuera",
+      "inferida": "abierto hacia fuera",
+      "motivo": "tapa aromática abierta (15.07 Å > 8 Å)",
+      "regla": "Regla explícita (inferido), plegamiento LeuT:\n    1) tapa aromática extracelular (Tyr OH – Phe CZ) > 8 Å → 'abierto hacia fuera';\n    2) si está cerrada y se midió la compuerta intracelular (puente salino Arg–Asp): abierta → 'abierto hacia\n       dentro', cerrada → 'ocluido';\n    3) si no se midió la intracelular: hay Na⁺ resuelto en la estructura → 'ocluido' (el Na2 se libera al abrir\n       hacia dentro); no hay Na⁺ → 'abierto hacia dentro'.\n    El puente salino extracelular Arg–Asp/Glu se informa pero no decide (en 5I71 está formado con la tapa abierta).",
+      "coincide": true,
+      "titulo_pdb_menciona": null
+     },
+     "apertura_mfs": null,
+     "archivo": "procesadas/8Y2G.pdb",
+     "avisos": []
+    }
+   ],
+   "morph": {
+    "base": "8Y2D",
+    "movil": "8Y2G",
+    "superposicion": "Cα de TM3, TM4, TM8, TM9 (andamio) de 8Y2D",
+    "n_ca": 103,
+    "rmsd_andamio": 0.58,
+    "rmsd_todos_ca": 3.35,
+    "n_ca_comunes": 528,
+    "angulo_normal_propia_vs_heredada": 7.3,
+    "interpolacion": "lineal en coordenadas cartesianas, calculada en el navegador; no es una trayectoria física",
+    "inferido": true
+   }
+  },
+  "SERT": {
+   "uniprot": "P31645",
+   "gen": "SLC6A4",
+   "plegamiento": "LeuT",
+   "uniprot_disponible": false,
+   "estructuras": [
+    {
+     "id": "5I6X",
+     "transportador": "SERT",
+     "titulo": "X-ray structure of the ts3 human serotonin transporter complexed with paroxetine at the central site",
+     "metodo": "X-Ray Diffraction",
+     "resolucion": 3.14,
+     "cita": {
+      "titulo": "X-ray structures and mechanism of the human serotonin transporter.",
+      "revista": "Nature",
+      "anio": "2016",
+      "doi": "10.1038/nature17629"
+     },
+     "deposito": "2016-02-16",
+     "cadena": "A",
+     "residuos": [
+      74,
+      617
+     ],
+     "huecos": [],
+     "n_atomos_proteina": 4221,
+     "mutaciones": [
+      {
+       "resi": "291",
+       "pdb": "ALA",
+       "uniprot": "ILE",
+       "detalle": "engineered mutation"
+      },
+      {
+       "resi": "439",
+       "pdb": "SER",
+       "uniprot": "THR",
+       "detalle": "engineered mutation"
+      },
+      {
+       "resi": "554",
+       "pdb": "ALA",
+       "uniprot": "CYS",
+       "detalle": "engineered mutation"
+      },
+      {
+       "resi": "580",
+       "pdb": "ALA",
+       "uniprot": "CYS",
+       "detalle": "engineered mutation"
+      }
+     ],
+     "ligando": {
+      "codigo": "8PR",
+      "codigo_pdb": "8PR",
+      "nombre": "Paroxetine",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 705,
+        "residuos": [
+         {
+          "resi": 95,
+          "resn": "TYR",
+          "dmin": 3.19,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "catión–π"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "NAN",
+            "d": 3.19
+           },
+           {
+            "tipo": "catión–π",
+            "prot": "anillo CG/CD1",
+            "lig": "NAN",
+            "d": 4.97
+           }
+          ]
+         },
+         {
+          "resi": 96,
+          "resn": "ALA",
+          "dmin": 3.16,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "NAN",
+            "d": 3.16
+           }
+          ]
+         },
+         {
+          "resi": 98,
+          "resn": "ASP",
+          "dmin": 3.09,
+          "tipos": [
+           "puente salino",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OD2",
+            "lig": "NAN",
+            "d": 3.09
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.91
+           }
+          ]
+         },
+         {
+          "resi": 169,
+          "resn": "ALA",
+          "dmin": 3.44,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.44
+           }
+          ]
+         },
+         {
+          "resi": 172,
+          "resn": "ILE",
+          "dmin": 3.23,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.23
+           }
+          ]
+         },
+         {
+          "resi": 176,
+          "resn": "TYR",
+          "dmin": 3.73,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.73
+           }
+          ]
+         },
+         {
+          "resi": 335,
+          "resn": "PHE",
+          "dmin": 3.24,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.47
+           }
+          ]
+         },
+         {
+          "resi": 336,
+          "resn": "SER",
+          "dmin": 3.09,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.49
+           }
+          ]
+         },
+         {
+          "resi": 338,
+          "resn": "GLY",
+          "dmin": 3.76,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.77
+           }
+          ]
+         },
+         {
+          "resi": 341,
+          "resn": "PHE",
+          "dmin": 3.45,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo CAL/OAP",
+            "d": 5.61,
+            "angulo": 66.9
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.82
+           }
+          ]
+         },
+         {
+          "resi": 438,
+          "resn": "SER",
+          "dmin": 3.24,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.47
+           }
+          ]
+         },
+         {
+          "resi": 439,
+          "resn": "SER",
+          "dmin": 3.59,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.59
+           }
+          ]
+         },
+         {
+          "resi": 442,
+          "resn": "GLY",
+          "dmin": 3.79,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.79
+           }
+          ]
+         },
+         {
+          "resi": 501,
+          "resn": "VAL",
+          "dmin": 3.12,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         }
+        ],
+        "iones_cercanos": [
+         {
+          "ion": "CL",
+          "resi": 706,
+          "d_ligando": 8.73
+         },
+         {
+          "ion": "NA",
+          "resi": 707,
+          "d_ligando": 3.04
+         }
+        ],
+        "centro": [
+         0.87,
+         -0.87,
+         1.96
+        ],
+        "n_cargados": [
+         "NAN"
+        ],
+        "anillos": [
+         [
+          "CAB",
+          "CAC",
+          "CAE",
+          "CAF",
+          "CAR",
+          "CAT"
+         ],
+         [
+          "CAD",
+          "CAG",
+          "CAH",
+          "CAS",
+          "CAU",
+          "CAV"
+         ],
+         [
+          "CAL",
+          "OAP",
+          "OAQ",
+          "CAU",
+          "CAV"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": -0.87
+       }
+      ]
+     },
+     "iones": [
+      {
+       "ion": "CL",
+       "simbolo": "Cl⁻",
+       "resi": 706,
+       "cadena": "A",
+       "pos": [
+        -2.21,
+        3.54,
+        -9.9
+       ]
+      },
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 707,
+       "cadena": "A",
+       "pos": [
+        -2.65,
+        0.59,
+        -4.7
+       ]
+      }
+     ],
+     "orientacion": {
+      "fuente": "OPM",
+      "detalle": "superposición Cα sobre el PDB orientado de OPM (544 Cα, RMSD 0.00 Å)",
+      "espesor": 30.6,
+      "espesor_fuente": "OPM (medido)",
+      "angulo_geometria_vs_opm": 13.4,
+      "inferido": false
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 85,
+       "fin": 112,
+       "residuos": 28,
+       "inclinacion": 23.9,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 113,
+       "fin": 139,
+       "residuos": 27,
+       "inclinacion": 28.6,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 156,
+       "fin": 190,
+       "residuos": 35,
+       "inclinacion": 53.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 252,
+       "fin": 271,
+       "residuos": 20,
+       "inclinacion": 18.3,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 273,
+       "fin": 301,
+       "residuos": 29,
+       "inclinacion": 38.1,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 316,
+       "fin": 348,
+       "residuos": 33,
+       "inclinacion": 39.6,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 358,
+       "fin": 382,
+       "residuos": 25,
+       "inclinacion": 21.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 419,
+       "fin": 451,
+       "residuos": 33,
+       "inclinacion": 46.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 462,
+       "fin": 481,
+       "residuos": 20,
+       "inclinacion": 10.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 484,
+       "fin": 514,
+       "residuos": 31,
+       "inclinacion": 39.3,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 534,
+       "fin": 559,
+       "residuos": 26,
+       "inclinacion": 33.1,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 574,
+       "fin": 598,
+       "residuos": 25,
+       "inclinacion": 23.2,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "haz central": [
+       1,
+       2,
+       6,
+       7
+      ],
+      "andamio": [
+       3,
+       4,
+       8,
+       9
+      ],
+      "periféricas": [
+       5,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       84,
+       97
+      ],
+      [
+       98,
+       112
+      ],
+      [
+       113,
+       116
+      ],
+      [
+       117,
+       128
+      ],
+      [
+       128,
+       144
+      ],
+      [
+       148,
+       153
+      ],
+      [
+       155,
+       158
+      ],
+      [
+       159,
+       174
+      ],
+      [
+       175,
+       189
+      ],
+      [
+       226,
+       235
+      ],
+      [
+       238,
+       242
+      ],
+      [
+       252,
+       271
+      ],
+      [
+       273,
+       285
+      ],
+      [
+       286,
+       301
+      ],
+      [
+       305,
+       314
+      ],
+      [
+       316,
+       321
+      ],
+      [
+       322,
+       338
+      ],
+      [
+       342,
+       350
+      ],
+      [
+       357,
+       390
+      ],
+      [
+       395,
+       399
+      ],
+      [
+       402,
+       408
+      ],
+      [
+       408,
+       416
+      ],
+      [
+       419,
+       454
+      ],
+      [
+       461,
+       478
+      ],
+      [
+       484,
+       495
+      ],
+      [
+       496,
+       514
+      ],
+      [
+       517,
+       529
+      ],
+      [
+       534,
+       543
+      ],
+      [
+       543,
+       559
+      ],
+      [
+       573,
+       584
+      ],
+      [
+       587,
+       600
+      ],
+      [
+       603,
+       613
+      ]
+     ],
+     "compuertas": [
+      {
+       "nombre": "Compuerta extracelular Tyr176–Phe335",
+       "lado": "extracelular",
+       "tipo": "aromatica",
+       "residuos": [
+        "Tyr176",
+        "Phe335"
+       ],
+       "atomos": [
+        [
+         "OH"
+        ],
+        [
+         "CZ"
+        ]
+       ],
+       "distancia": 13.75,
+       "par": "OH–CZ",
+       "umbral": 8.0,
+       "estado": "abierta"
+      },
+      {
+       "nombre": "Puente salino extracelular Arg104–Glu493",
+       "lado": "extracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg104",
+        "Glu493"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OE1",
+         "OE2"
+        ]
+       ],
+       "distancia": 4.94,
+       "par": "NH2–OE1",
+       "umbral": 4.5,
+       "estado": "abierta"
+      }
+     ],
+     "conformacion": {
+      "esperada": "abierto hacia fuera",
+      "inferida": "abierto hacia fuera",
+      "motivo": "tapa aromática abierta (13.75 Å > 8 Å)",
+      "regla": "Regla explícita (inferido), plegamiento LeuT:\n    1) tapa aromática extracelular (Tyr OH – Phe CZ) > 8 Å → 'abierto hacia fuera';\n    2) si está cerrada y se midió la compuerta intracelular (puente salino Arg–Asp): abierta → 'abierto hacia\n       dentro', cerrada → 'ocluido';\n    3) si no se midió la intracelular: hay Na⁺ resuelto en la estructura → 'ocluido' (el Na2 se libera al abrir\n       hacia dentro); no hay Na⁺ → 'abierto hacia dentro'.\n    El puente salino extracelular Arg–Asp/Glu se informa pero no decide (en 5I71 está formado con la tapa abierta).",
+      "coincide": true,
+      "titulo_pdb_menciona": null
+     },
+     "apertura_mfs": null,
+     "archivo": "procesadas/5I6X.pdb",
+     "avisos": []
+    },
+    {
+     "id": "5I71",
+     "transportador": "SERT",
+     "titulo": "X-ray structure of the ts3 human serotonin transporter complexed with s-citalopram at the central site",
+     "metodo": "X-Ray Diffraction",
+     "resolucion": 3.15,
+     "cita": {
+      "titulo": "X-ray structures and mechanism of the human serotonin transporter.",
+      "revista": "Nature",
+      "anio": "2016",
+      "doi": "10.1038/nature17629"
+     },
+     "deposito": "2016-02-16",
+     "cadena": "A",
+     "residuos": [
+      74,
+      615
+     ],
+     "huecos": [],
+     "n_atomos_proteina": 4210,
+     "mutaciones": [
+      {
+       "resi": "291",
+       "pdb": "ALA",
+       "uniprot": "ILE",
+       "detalle": "engineered mutation"
+      },
+      {
+       "resi": "439",
+       "pdb": "SER",
+       "uniprot": "THR",
+       "detalle": "engineered mutation"
+      },
+      {
+       "resi": "554",
+       "pdb": "ALA",
+       "uniprot": "CYS",
+       "detalle": "engineered mutation"
+      },
+      {
+       "resi": "580",
+       "pdb": "ALA",
+       "uniprot": "CYS",
+       "detalle": "engineered mutation"
+      }
+     ],
+     "ligando": {
+      "codigo": "68P",
+      "codigo_pdb": "68P",
+      "nombre": "(1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 701,
+        "residuos": [
+         {
+          "resi": 95,
+          "resn": "TYR",
+          "dmin": 3.24,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "catión–π",
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "N03",
+            "d": 3.29
+           },
+           {
+            "tipo": "catión–π",
+            "prot": "anillo CG/CD1",
+            "lig": "N03",
+            "d": 4.15
+           },
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo O02/C05",
+            "d": 5.76,
+            "angulo": 62.7
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.98
+           }
+          ]
+         },
+         {
+          "resi": 96,
+          "resn": "ALA",
+          "dmin": 2.87,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.75
+           }
+          ]
+         },
+         {
+          "resi": 98,
+          "resn": "ASP",
+          "dmin": 3.01,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.62
+           }
+          ]
+         },
+         {
+          "resi": 172,
+          "resn": "ILE",
+          "dmin": 3.43,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.43
+           }
+          ]
+         },
+         {
+          "resi": 173,
+          "resn": "ALA",
+          "dmin": 3.65,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 175,
+          "resn": "TYR",
+          "dmin": 3.96,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 335,
+          "resn": "PHE",
+          "dmin": 2.92,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.41
+           }
+          ]
+         },
+         {
+          "resi": 336,
+          "resn": "SER",
+          "dmin": 3.73,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 338,
+          "resn": "GLY",
+          "dmin": 3.62,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.62
+           }
+          ]
+         },
+         {
+          "resi": 341,
+          "resn": "PHE",
+          "dmin": 3.57,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C10/C15",
+            "d": 5.64,
+            "angulo": 78.5
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.57
+           }
+          ]
+         },
+         {
+          "resi": 438,
+          "resn": "SER",
+          "dmin": 3.73,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 442,
+          "resn": "GLY",
+          "dmin": 3.67,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.67
+           }
+          ]
+         },
+         {
+          "resi": 443,
+          "resn": "LEU",
+          "dmin": 3.87,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 497,
+          "resn": "THR",
+          "dmin": 3.62,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 498,
+          "resn": "GLY",
+          "dmin": 3.14,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "N",
+            "lig": "N04",
+            "d": 3.48
+           }
+          ]
+         },
+         {
+          "resi": 501,
+          "resn": "VAL",
+          "dmin": 3.3,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.41
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [
+         {
+          "ion": "NA",
+          "resi": 707,
+          "d_ligando": 3.45
+         },
+         {
+          "ion": "NA",
+          "resi": 708,
+          "d_ligando": 6.61
+         }
+        ],
+        "centro": [
+         1.4,
+         -0.76,
+         2.43
+        ],
+        "n_cargados": [
+         "N03",
+         "N04"
+        ],
+        "anillos": [
+         [
+          "C10",
+          "C15",
+          "C20",
+          "C21",
+          "C16",
+          "C19"
+         ],
+         [
+          "C13",
+          "C17",
+          "C07",
+          "C08",
+          "C14",
+          "C18"
+         ],
+         [
+          "O02",
+          "C05",
+          "C07",
+          "C08",
+          "C11"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": -0.76
+       }
+      ]
+     },
+     "iones": [
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 707,
+       "cadena": "A",
+       "pos": [
+        -2.77,
+        0.34,
+        -5.46
+       ]
+      },
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 708,
+       "cadena": "A",
+       "pos": [
+        -8.05,
+        -1.29,
+        0.6
+       ]
+      }
+     ],
+     "orientacion": {
+      "fuente": "OPM",
+      "detalle": "superposición Cα sobre el PDB orientado de OPM (542 Cα, RMSD 0.00 Å)",
+      "espesor": 31.6,
+      "espesor_fuente": "OPM (medido)",
+      "angulo_geometria_vs_opm": 12.9,
+      "inferido": false
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 85,
+       "fin": 111,
+       "residuos": 27,
+       "inclinacion": 21.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 113,
+       "fin": 139,
+       "residuos": 27,
+       "inclinacion": 28.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 156,
+       "fin": 190,
+       "residuos": 35,
+       "inclinacion": 54.3,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 252,
+       "fin": 271,
+       "residuos": 20,
+       "inclinacion": 20.1,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 277,
+       "fin": 301,
+       "residuos": 25,
+       "inclinacion": 36.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 322,
+       "fin": 348,
+       "residuos": 27,
+       "inclinacion": 35.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 357,
+       "fin": 381,
+       "residuos": 25,
+       "inclinacion": 20.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 419,
+       "fin": 451,
+       "residuos": 33,
+       "inclinacion": 46.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 462,
+       "fin": 481,
+       "residuos": 20,
+       "inclinacion": 10.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 484,
+       "fin": 515,
+       "residuos": 32,
+       "inclinacion": 40.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 534,
+       "fin": 559,
+       "residuos": 26,
+       "inclinacion": 35.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 574,
+       "fin": 598,
+       "residuos": 25,
+       "inclinacion": 23.1,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "haz central": [
+       1,
+       2,
+       6,
+       7
+      ],
+      "andamio": [
+       3,
+       4,
+       8,
+       9
+      ],
+      "periféricas": [
+       5,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       84,
+       97
+      ],
+      [
+       98,
+       111
+      ],
+      [
+       113,
+       116
+      ],
+      [
+       117,
+       127
+      ],
+      [
+       128,
+       144
+      ],
+      [
+       148,
+       153
+      ],
+      [
+       155,
+       158
+      ],
+      [
+       159,
+       173
+      ],
+      [
+       175,
+       188
+      ],
+      [
+       226,
+       235
+      ],
+      [
+       238,
+       242
+      ],
+      [
+       252,
+       266
+      ],
+      [
+       280,
+       285
+      ],
+      [
+       286,
+       302
+      ],
+      [
+       305,
+       314
+      ],
+      [
+       322,
+       338
+      ],
+      [
+       342,
+       350
+      ],
+      [
+       357,
+       390
+      ],
+      [
+       393,
+       398
+      ],
+      [
+       403,
+       408
+      ],
+      [
+       408,
+       416
+      ],
+      [
+       419,
+       454
+      ],
+      [
+       461,
+       477
+      ],
+      [
+       484,
+       495
+      ],
+      [
+       496,
+       515
+      ],
+      [
+       517,
+       529
+      ],
+      [
+       534,
+       543
+      ],
+      [
+       543,
+       559
+      ],
+      [
+       573,
+       584
+      ],
+      [
+       587,
+       600
+      ],
+      [
+       603,
+       613
+      ]
+     ],
+     "compuertas": [
+      {
+       "nombre": "Compuerta extracelular Tyr176–Phe335",
+       "lado": "extracelular",
+       "tipo": "aromatica",
+       "residuos": [
+        "Tyr176",
+        "Phe335"
+       ],
+       "atomos": [
+        [
+         "OH"
+        ],
+        [
+         "CZ"
+        ]
+       ],
+       "distancia": 13.14,
+       "par": "OH–CZ",
+       "umbral": 8.0,
+       "estado": "abierta"
+      },
+      {
+       "nombre": "Puente salino extracelular Arg104–Glu493",
+       "lado": "extracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg104",
+        "Glu493"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OE1",
+         "OE2"
+        ]
+       ],
+       "distancia": 2.79,
+       "par": "NH2–OE1",
+       "umbral": 4.5,
+       "estado": "cerrada"
+      }
+     ],
+     "conformacion": {
+      "esperada": "abierto hacia fuera",
+      "inferida": "abierto hacia fuera",
+      "motivo": "tapa aromática abierta (13.14 Å > 8 Å)",
+      "regla": "Regla explícita (inferido), plegamiento LeuT:\n    1) tapa aromática extracelular (Tyr OH – Phe CZ) > 8 Å → 'abierto hacia fuera';\n    2) si está cerrada y se midió la compuerta intracelular (puente salino Arg–Asp): abierta → 'abierto hacia\n       dentro', cerrada → 'ocluido';\n    3) si no se midió la intracelular: hay Na⁺ resuelto en la estructura → 'ocluido' (el Na2 se libera al abrir\n       hacia dentro); no hay Na⁺ → 'abierto hacia dentro'.\n    El puente salino extracelular Arg–Asp/Glu se informa pero no decide (en 5I71 está formado con la tapa abierta).",
+      "coincide": true,
+      "titulo_pdb_menciona": null
+     },
+     "apertura_mfs": null,
+     "archivo": "procesadas/5I71.pdb",
+     "avisos": []
+    }
+   ],
+   "morph": {
+    "base": "5I6X",
+    "movil": "5I71",
+    "superposicion": "Cα de TM3, TM4, TM8, TM9 (andamio) de 5I6X",
+    "n_ca": 108,
+    "rmsd_andamio": 0.3,
+    "rmsd_todos_ca": 0.51,
+    "n_ca_comunes": 542,
+    "angulo_normal_propia_vs_heredada": 1.4,
+    "interpolacion": "lineal en coordenadas cartesianas, calculada en el navegador; no es una trayectoria física",
+    "inferido": true
+   }
+  },
+  "NET": {
+   "uniprot": "P23975",
+   "gen": "SLC6A2",
+   "plegamiento": "LeuT",
+   "uniprot_disponible": false,
+   "estructuras": [
+    {
+     "id": "8HFF",
+     "transportador": "NET",
+     "titulo": "Cryo-EM structure of human norepinephrine transporter NET in the presence of norepinephrine in an inward-open state at resolution of 2.9 angstrom.",
+     "metodo": "Electron Microscopy",
+     "resolucion": 2.86,
+     "cita": {
+      "titulo": "Molecular basis of human noradrenaline transporter reuptake and inhibition.",
+      "revista": "Nature",
+      "anio": "2024",
+      "doi": "10.1038/s41586-024-07719-z"
+     },
+     "deposito": "2022-11-10",
+     "cadena": "A",
+     "residuos": [
+      60,
+      617
+     ],
+     "huecos": [
+      [
+       193,
+       203
+      ]
+     ],
+     "n_atomos_proteina": 4373,
+     "mutaciones": [],
+     "ligando": {
+      "codigo": "LNR",
+      "codigo_pdb": "LNR",
+      "nombre": "L-NOREPINEPHRINE",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 701,
+        "residuos": [
+         {
+          "resi": 75,
+          "resn": "ASP",
+          "dmin": 2.92,
+          "tipos": [
+           "puente salino"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OD2",
+            "lig": "NAA",
+            "d": 2.92
+           }
+          ]
+         },
+         {
+          "resi": 145,
+          "resn": "ALA",
+          "dmin": 2.88,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "OAB",
+            "d": 2.88
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.68
+           }
+          ]
+         },
+         {
+          "resi": 148,
+          "resn": "VAL",
+          "dmin": 3.79,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.79
+           }
+          ]
+         },
+         {
+          "resi": 149,
+          "resn": "GLY",
+          "dmin": 2.77,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "N",
+            "lig": "OAB",
+            "d": 2.93
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.72
+           }
+          ]
+         },
+         {
+          "resi": 152,
+          "resn": "TYR",
+          "dmin": 3.29,
+          "tipos": [
+           "puente de hidrógeno (cadena lateral)",
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (cadena lateral)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "OH",
+            "lig": "NAA",
+            "d": 3.4
+           },
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo CAJ/CAG",
+            "d": 5.05,
+            "angulo": 70.1
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.47
+           }
+          ]
+         },
+         {
+          "resi": 317,
+          "resn": "PHE",
+          "dmin": 2.91,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "NAA",
+            "d": 2.91
+           }
+          ]
+         },
+         {
+          "resi": 323,
+          "resn": "PHE",
+          "dmin": 3.72,
+          "tipos": [
+           "catión–π",
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "catión–π",
+          "pares": [
+           {
+            "tipo": "catión–π",
+            "prot": "anillo CG/CD1",
+            "lig": "NAA",
+            "d": 5.21
+           },
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo CAJ/CAG",
+            "d": 5.26,
+            "angulo": 74.7
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.72
+           }
+          ]
+         },
+         {
+          "resi": 325,
+          "resn": "VAL",
+          "dmin": 3.99,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 419,
+          "resn": "SER",
+          "dmin": 3.56,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 420,
+          "resn": "SER",
+          "dmin": 3.42,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 423,
+          "resn": "GLY",
+          "dmin": 3.57,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.57
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [],
+        "centro": [
+         0.27,
+         -1.14,
+         3.75
+        ],
+        "n_cargados": [
+         "NAA"
+        ],
+        "anillos": [
+         [
+          "CAJ",
+          "CAG",
+          "CAI",
+          "CAE",
+          "CAF",
+          "CAK"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": -1.14
+       },
+       {
+        "cadena": "A",
+        "resi": 702,
+        "residuos": [
+         {
+          "resi": 87,
+          "resn": "TYR",
+          "dmin": 2.89,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "OAD",
+            "d": 2.89
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.87
+           }
+          ]
+         },
+         {
+          "resi": 88,
+          "resn": "LYS",
+          "dmin": 3.05,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "NAA",
+            "d": 3.05
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.97
+           }
+          ]
+         },
+         {
+          "resi": 90,
+          "resn": "GLY",
+          "dmin": 3.43,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 293,
+          "resn": "ALA",
+          "dmin": 3.61,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 301,
+          "resn": "ARG",
+          "dmin": 3.84,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 362,
+          "resn": "PHE",
+          "dmin": 3.98,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.98
+           }
+          ]
+         },
+         {
+          "resi": 377,
+          "resn": "GLU",
+          "dmin": 3.22,
+          "tipos": [
+           "puente de hidrógeno (cadena lateral)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (cadena lateral)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "OE2",
+            "lig": "OAC",
+            "d": 3.42
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.22
+           }
+          ]
+         },
+         {
+          "resi": 382,
+          "resn": "GLU",
+          "dmin": 2.6,
+          "tipos": [
+           "puente salino",
+           "puente de hidrógeno (cadena lateral)"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OE1",
+            "lig": "NAA",
+            "d": 3.6
+           },
+           {
+            "tipo": "puente salino",
+            "prot": "OE2",
+            "lig": "NAA",
+            "d": 2.6
+           },
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "OE2",
+            "lig": "OAD",
+            "d": 2.79
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [],
+        "centro": [
+         -0.05,
+         22.14,
+         -12.05
+        ],
+        "n_cargados": [
+         "NAA"
+        ],
+        "anillos": [
+         [
+          "CAJ",
+          "CAG",
+          "CAI",
+          "CAE",
+          "CAF",
+          "CAK"
+         ]
+        ],
+        "etiqueta": "S2",
+        "y_centro": 22.14
+       }
+      ]
+     },
+     "iones": [],
+     "orientacion": {
+      "fuente": "geometría",
+      "detalle": "normal = autovector principal de los ejes de las hélices TM (iterado con la asignación TM); centro = media de los centros de las hélices; N-terminal hacia −y",
+      "espesor": 30.0,
+      "espesor_fuente": "inferido: valor típico (30 Å); OPM no tiene esta entrada",
+      "inferido": true
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 60,
+       "fin": 89,
+       "residuos": 30,
+       "inclinacion": 40.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 93,
+       "fin": 117,
+       "residuos": 25,
+       "inclinacion": 23.2,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 133,
+       "fin": 166,
+       "residuos": 34,
+       "inclinacion": 46.7,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 234,
+       "fin": 256,
+       "residuos": 23,
+       "inclinacion": 18.2,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 257,
+       "fin": 279,
+       "residuos": 23,
+       "inclinacion": 34.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 298,
+       "fin": 331,
+       "residuos": 34,
+       "inclinacion": 37.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 338,
+       "fin": 361,
+       "residuos": 24,
+       "inclinacion": 5.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 403,
+       "fin": 432,
+       "residuos": 30,
+       "inclinacion": 41.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 441,
+       "fin": 461,
+       "residuos": 21,
+       "inclinacion": 15.7,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 464,
+       "fin": 494,
+       "residuos": 31,
+       "inclinacion": 36.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 514,
+       "fin": 540,
+       "residuos": 27,
+       "inclinacion": 41.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 552,
+       "fin": 575,
+       "residuos": 24,
+       "inclinacion": 10.1,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "haz central": [
+       1,
+       2,
+       6,
+       7
+      ],
+      "andamio": [
+       3,
+       4,
+       8,
+       9
+      ],
+      "periféricas": [
+       5,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       60,
+       74
+      ],
+      [
+       75,
+       89
+      ],
+      [
+       94,
+       105
+      ],
+      [
+       105,
+       121
+      ],
+      [
+       125,
+       130
+      ],
+      [
+       131,
+       133
+      ],
+      [
+       134,
+       166
+      ],
+      [
+       208,
+       217
+      ],
+      [
+       220,
+       224
+      ],
+      [
+       234,
+       253
+      ],
+      [
+       255,
+       261
+      ],
+      [
+       262,
+       283
+      ],
+      [
+       286,
+       296
+      ],
+      [
+       298,
+       303
+      ],
+      [
+       305,
+       319
+      ],
+      [
+       324,
+       332
+      ],
+      [
+       338,
+       373
+      ],
+      [
+       385,
+       396
+      ],
+      [
+       400,
+       435
+      ],
+      [
+       435,
+       440
+      ],
+      [
+       441,
+       459
+      ],
+      [
+       464,
+       476
+      ],
+      [
+       478,
+       497
+      ],
+      [
+       497,
+       510
+      ],
+      [
+       514,
+       523
+      ],
+      [
+       523,
+       539
+      ],
+      [
+       551,
+       567
+      ],
+      [
+       567,
+       580
+      ],
+      [
+       583,
+       593
+      ],
+      [
+       594,
+       604
+      ],
+      [
+       606,
+       609
+      ],
+      [
+       610,
+       615
+      ]
+     ],
+     "compuertas": [
+      {
+       "nombre": "Compuerta extracelular Tyr152–Phe317",
+       "lado": "extracelular",
+       "tipo": "aromatica",
+       "residuos": [
+        "Tyr152",
+        "Phe317"
+       ],
+       "atomos": [
+        [
+         "OH"
+        ],
+        [
+         "CZ"
+        ]
+       ],
+       "distancia": 5.32,
+       "par": "OH–CZ",
+       "umbral": 8.0,
+       "estado": "cerrada"
+      },
+      {
+       "nombre": "Puente salino extracelular Arg81–Asp473",
+       "lado": "extracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg81",
+        "Asp473"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OD1",
+         "OD2"
+        ]
+       ],
+       "distancia": 3.13,
+       "par": "NE–OD1",
+       "umbral": 4.5,
+       "estado": "cerrada"
+      }
+     ],
+     "conformacion": {
+      "esperada": "abierto hacia dentro",
+      "inferida": "abierto hacia dentro",
+      "motivo": "tapa cerrada; compuerta intracelular no medible; sin Na⁺ resuelto",
+      "regla": "Regla explícita (inferido), plegamiento LeuT:\n    1) tapa aromática extracelular (Tyr OH – Phe CZ) > 8 Å → 'abierto hacia fuera';\n    2) si está cerrada y se midió la compuerta intracelular (puente salino Arg–Asp): abierta → 'abierto hacia\n       dentro', cerrada → 'ocluido';\n    3) si no se midió la intracelular: hay Na⁺ resuelto en la estructura → 'ocluido' (el Na2 se libera al abrir\n       hacia dentro); no hay Na⁺ → 'abierto hacia dentro'.\n    El puente salino extracelular Arg–Asp/Glu se informa pero no decide (en 5I71 está formado con la tapa abierta).",
+      "coincide": true,
+      "titulo_pdb_menciona": "abierto hacia dentro"
+     },
+     "apertura_mfs": null,
+     "archivo": "procesadas/8HFF.pdb",
+     "avisos": []
+    },
+    {
+     "id": "8ZP2",
+     "transportador": "NET",
+     "titulo": "Cryo-EM structure of human norepinephrine transporter NET bound with atomoxetine in an outward-open state at a resolution of 2.4 angstrom",
+     "metodo": "Electron Microscopy",
+     "resolucion": 2.4,
+     "cita": {
+      "titulo": "Mechanistic insights of substrate transport and inhibitor binding revealed by high-resolution structures of human norepinephrine transporter.",
+      "revista": "Cell Res.",
+      "anio": "2024",
+      "doi": "10.1038/s41422-024-01024-0"
+     },
+     "deposito": "2024-05-29",
+     "cadena": "A",
+     "residuos": [
+      54,
+      617
+     ],
+     "huecos": [
+      [
+       192,
+       200
+      ]
+     ],
+     "n_atomos_proteina": 4449,
+     "mutaciones": [],
+     "ligando": {
+      "codigo": "A1LX4",
+      "codigo_pdb": "ATX",
+      "nombre": "(3R)-N-methyl-3-(2-methylphenoxy)-3-phenyl-propan-1-amine",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 701,
+        "residuos": [
+         {
+          "resi": 72,
+          "resn": "PHE",
+          "dmin": 2.98,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "catión–π",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "N12",
+            "d": 2.98
+           },
+           {
+            "tipo": "catión–π",
+            "prot": "anillo CG/CD1",
+            "lig": "N12",
+            "d": 4.49
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.49
+           }
+          ]
+         },
+         {
+          "resi": 73,
+          "resn": "ALA",
+          "dmin": 3.34,
+          "tipos": [
+           "puente de hidrógeno (esqueleto)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (esqueleto)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (esqueleto)",
+            "prot": "O",
+            "lig": "N12",
+            "d": 3.34
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.62
+           }
+          ]
+         },
+         {
+          "resi": 75,
+          "resn": "ASP",
+          "dmin": 3.74,
+          "tipos": [
+           "puente salino"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OD2",
+            "lig": "N12",
+            "d": 3.93
+           }
+          ]
+         },
+         {
+          "resi": 145,
+          "resn": "ALA",
+          "dmin": 3.71,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 148,
+          "resn": "VAL",
+          "dmin": 3.41,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.41
+           }
+          ]
+         },
+         {
+          "resi": 149,
+          "resn": "GLY",
+          "dmin": 3.73,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.94
+           }
+          ]
+         },
+         {
+          "resi": 151,
+          "resn": "TYR",
+          "dmin": 3.05,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 152,
+          "resn": "TYR",
+          "dmin": 3.61,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C15/C17",
+            "d": 5.93,
+            "angulo": 83.2
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.61
+           }
+          ]
+         },
+         {
+          "resi": 317,
+          "resn": "PHE",
+          "dmin": 3.9,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 318,
+          "resn": "SER",
+          "dmin": 3.39,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 319,
+          "resn": "LEU",
+          "dmin": 3.72,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.76
+           }
+          ]
+         },
+         {
+          "resi": 320,
+          "resn": "GLY",
+          "dmin": 3.54,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.54
+           }
+          ]
+         },
+         {
+          "resi": 323,
+          "resn": "PHE",
+          "dmin": 3.55,
+          "tipos": [
+           "apilamiento aromático (en T)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (en T)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (en T)",
+            "prot": "anillo",
+            "lig": "anillo C15/C17",
+            "d": 5.98,
+            "angulo": 61.3
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.55
+           }
+          ]
+         },
+         {
+          "resi": 419,
+          "resn": "SER",
+          "dmin": 3.45,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.84
+           }
+          ]
+         },
+         {
+          "resi": 420,
+          "resn": "SER",
+          "dmin": 3.78,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.78
+           }
+          ]
+         },
+         {
+          "resi": 423,
+          "resn": "GLY",
+          "dmin": 3.44,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.44
+           }
+          ]
+         },
+         {
+          "resi": 477,
+          "resn": "ALA",
+          "dmin": 3.65,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.65
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [
+         {
+          "ion": "NA",
+          "resi": 702,
+          "d_ligando": 3.92
+         },
+         {
+          "ion": "NA",
+          "resi": 703,
+          "d_ligando": 6.15
+         },
+         {
+          "ion": "CL",
+          "resi": 704,
+          "d_ligando": 8.57
+         }
+        ],
+        "centro": [
+         0.24,
+         0.2,
+         2.04
+        ],
+        "n_cargados": [
+         "N12"
+        ],
+        "anillos": [
+         [
+          "C15",
+          "C17",
+          "C14",
+          "C16",
+          "C18",
+          "C19"
+         ],
+         [
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": 0.2
+       }
+      ]
+     },
+     "iones": [
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 702,
+       "cadena": "A",
+       "pos": [
+        -5.49,
+        2.0,
+        -3.25
+       ]
+      },
+      {
+       "ion": "NA",
+       "simbolo": "Na⁺",
+       "resi": 703,
+       "cadena": "A",
+       "pos": [
+        -8.04,
+        0.19,
+        3.35
+       ]
+      },
+      {
+       "ion": "CL",
+       "simbolo": "Cl⁻",
+       "resi": 704,
+       "cadena": "A",
+       "pos": [
+        -6.24,
+        4.06,
+        -7.7
+       ]
+      }
+     ],
+     "orientacion": {
+      "fuente": "geometría",
+      "detalle": "normal = autovector principal de los ejes de las hélices TM (iterado con la asignación TM); centro = media de los centros de las hélices; N-terminal hacia −y",
+      "espesor": 30.0,
+      "espesor_fuente": "inferido: valor típico (30 Å); OPM no tiene esta entrada",
+      "inferido": true
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 61,
+       "fin": 88,
+       "residuos": 28,
+       "inclinacion": 30.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 89,
+       "fin": 116,
+       "residuos": 28,
+       "inclinacion": 22.6,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 134,
+       "fin": 166,
+       "residuos": 33,
+       "inclinacion": 43.4,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 233,
+       "fin": 256,
+       "residuos": 24,
+       "inclinacion": 26.1,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 257,
+       "fin": 280,
+       "residuos": 24,
+       "inclinacion": 31.6,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 298,
+       "fin": 331,
+       "residuos": 34,
+       "inclinacion": 41.4,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 338,
+       "fin": 361,
+       "residuos": 24,
+       "inclinacion": 7.9,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 403,
+       "fin": 432,
+       "residuos": 30,
+       "inclinacion": 35.3,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 442,
+       "fin": 462,
+       "residuos": 21,
+       "inclinacion": 19.5,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 464,
+       "fin": 493,
+       "residuos": 30,
+       "inclinacion": 37.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 514,
+       "fin": 542,
+       "residuos": 29,
+       "inclinacion": 40.7,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 551,
+       "fin": 574,
+       "residuos": 24,
+       "inclinacion": 12.5,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "haz central": [
+       1,
+       2,
+       6,
+       7
+      ],
+      "andamio": [
+       3,
+       4,
+       8,
+       9
+      ],
+      "periféricas": [
+       5,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       61,
+       74
+      ],
+      [
+       75,
+       81
+      ],
+      [
+       81,
+       89
+      ],
+      [
+       90,
+       93
+      ],
+      [
+       94,
+       121
+      ],
+      [
+       125,
+       130
+      ],
+      [
+       131,
+       133
+      ],
+      [
+       134,
+       166
+      ],
+      [
+       201,
+       205
+      ],
+      [
+       208,
+       218
+      ],
+      [
+       220,
+       224
+      ],
+      [
+       226,
+       230
+      ],
+      [
+       234,
+       253
+      ],
+      [
+       255,
+       267
+      ],
+      [
+       268,
+       283
+      ],
+      [
+       286,
+       296
+      ],
+      [
+       298,
+       303
+      ],
+      [
+       304,
+       320
+      ],
+      [
+       324,
+       331
+      ],
+      [
+       338,
+       372
+      ],
+      [
+       375,
+       380
+      ],
+      [
+       382,
+       389
+      ],
+      [
+       389,
+       398
+      ],
+      [
+       400,
+       435
+      ],
+      [
+       435,
+       441
+      ],
+      [
+       441,
+       458
+      ],
+      [
+       459,
+       462
+      ],
+      [
+       464,
+       476
+      ],
+      [
+       478,
+       495
+      ],
+      [
+       497,
+       510
+      ],
+      [
+       514,
+       523
+      ],
+      [
+       523,
+       539
+      ],
+      [
+       551,
+       567
+      ],
+      [
+       567,
+       580
+      ],
+      [
+       583,
+       593
+      ],
+      [
+       594,
+       596
+      ],
+      [
+       597,
+       603
+      ],
+      [
+       606,
+       609
+      ],
+      [
+       610,
+       616
+      ]
+     ],
+     "compuertas": [
+      {
+       "nombre": "Compuerta extracelular Tyr152–Phe317",
+       "lado": "extracelular",
+       "tipo": "aromatica",
+       "residuos": [
+        "Tyr152",
+        "Phe317"
+       ],
+       "atomos": [
+        [
+         "OH"
+        ],
+        [
+         "CZ"
+        ]
+       ],
+       "distancia": 13.26,
+       "par": "OH–CZ",
+       "umbral": 8.0,
+       "estado": "abierta"
+      },
+      {
+       "nombre": "Puente salino extracelular Arg81–Asp473",
+       "lado": "extracelular",
+       "tipo": "salino",
+       "residuos": [
+        "Arg81",
+        "Asp473"
+       ],
+       "atomos": [
+        [
+         "NE",
+         "NH1",
+         "NH2"
+        ],
+        [
+         "OD1",
+         "OD2"
+        ]
+       ],
+       "distancia": 8.21,
+       "par": "NE–OD2",
+       "umbral": 4.5,
+       "estado": "abierta"
+      }
+     ],
+     "conformacion": {
+      "esperada": "abierto hacia fuera",
+      "inferida": "abierto hacia fuera",
+      "motivo": "tapa aromática abierta (13.26 Å > 8 Å)",
+      "regla": "Regla explícita (inferido), plegamiento LeuT:\n    1) tapa aromática extracelular (Tyr OH – Phe CZ) > 8 Å → 'abierto hacia fuera';\n    2) si está cerrada y se midió la compuerta intracelular (puente salino Arg–Asp): abierta → 'abierto hacia\n       dentro', cerrada → 'ocluido';\n    3) si no se midió la intracelular: hay Na⁺ resuelto en la estructura → 'ocluido' (el Na2 se libera al abrir\n       hacia dentro); no hay Na⁺ → 'abierto hacia dentro'.\n    El puente salino extracelular Arg–Asp/Glu se informa pero no decide (en 5I71 está formado con la tapa abierta).",
+      "coincide": true,
+      "titulo_pdb_menciona": "abierto hacia fuera"
+     },
+     "apertura_mfs": null,
+     "archivo": "procesadas/8ZP2.pdb",
+     "avisos": []
+    }
+   ],
+   "morph": {
+    "base": "8HFF",
+    "movil": "8ZP2",
+    "superposicion": "Cα de TM3, TM4, TM8, TM9 (andamio) de 8HFF",
+    "n_ca": 108,
+    "rmsd_andamio": 0.59,
+    "rmsd_todos_ca": 3.64,
+    "n_ca_comunes": 546,
+    "angulo_normal_propia_vs_heredada": 6.6,
+    "interpolacion": "lineal en coordenadas cartesianas, calculada en el navegador; no es una trayectoria física",
+    "inferido": true
+   }
+  },
+  "VMAT2": {
+   "uniprot": "Q05940",
+   "gen": "SLC18A2",
+   "plegamiento": "MFS",
+   "uniprot_disponible": false,
+   "estructuras": [
+    {
+     "id": "8T69",
+     "transportador": "VMAT2",
+     "titulo": "Human VMAT2 in complex with tetrabenazine",
+     "metodo": "Electron Microscopy",
+     "resolucion": 2.89,
+     "cita": {
+      "titulo": "Mechanisms of neurotransmitter transport and drug inhibition in human VMAT2.",
+      "revista": "Nature",
+      "anio": "2023",
+      "doi": "10.1038/s41586-023-06727-9"
+     },
+     "deposito": "2023-06-15",
+     "cadena": "A",
+     "residuos": [
+      19,
+      477
+     ],
+     "huecos": [
+      [
+       50,
+       122
+      ]
+     ],
+     "n_atomos_proteina": 2900,
+     "mutaciones": [],
+     "ligando": {
+      "codigo": "YHL",
+      "codigo_pdb": "YHL",
+      "nombre": "tetrabenazine",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 901,
+        "residuos": [
+         {
+          "resi": 37,
+          "resn": "LEU",
+          "dmin": 3.3,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.51
+           }
+          ]
+         },
+         {
+          "resi": 38,
+          "resn": "THR",
+          "dmin": 3.93,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.93
+           }
+          ]
+         },
+         {
+          "resi": 41,
+          "resn": "VAL",
+          "dmin": 3.91,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.91
+           }
+          ]
+         },
+         {
+          "resi": 135,
+          "resn": "PHE",
+          "dmin": 3.49,
+          "tipos": [
+           "apilamiento aromático (paralelo)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "apilamiento aromático (paralelo)",
+          "pares": [
+           {
+            "tipo": "apilamiento aromático (paralelo)",
+            "prot": "anillo",
+            "lig": "anillo C10/C11",
+            "d": 4.36,
+            "angulo": 15.3
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.52
+           }
+          ]
+         },
+         {
+          "resi": 189,
+          "resn": "ARG",
+          "dmin": 2.7,
+          "tipos": [
+           "puente de hidrógeno (cadena lateral)"
+          ],
+          "tipo_principal": "puente de hidrógeno (cadena lateral)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "NH2",
+            "lig": "O20",
+            "d": 2.7
+           },
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "NH2",
+            "lig": "O22",
+            "d": 2.83
+           }
+          ]
+         },
+         {
+          "resi": 232,
+          "resn": "VAL",
+          "dmin": 3.79,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.79
+           }
+          ]
+         },
+         {
+          "resi": 308,
+          "resn": "ILE",
+          "dmin": 3.72,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.72
+           }
+          ]
+         },
+         {
+          "resi": 312,
+          "resn": "GLU",
+          "dmin": 2.73,
+          "tipos": [
+           "puente salino",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente salino",
+          "pares": [
+           {
+            "tipo": "puente salino",
+            "prot": "OE1",
+            "lig": "N7",
+            "d": 2.73
+           },
+           {
+            "tipo": "puente salino",
+            "prot": "OE2",
+            "lig": "N7",
+            "d": 2.95
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.68
+           }
+          ]
+         },
+         {
+          "resi": 334,
+          "resn": "PHE",
+          "dmin": 3.68,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.68
+           }
+          ]
+         },
+         {
+          "resi": 337,
+          "resn": "ALA",
+          "dmin": 3.93,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.93
+           }
+          ]
+         },
+         {
+          "resi": 341,
+          "resn": "TYR",
+          "dmin": 3.93,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.93
+           }
+          ]
+         },
+         {
+          "resi": 429,
+          "resn": "PHE",
+          "dmin": 3.63,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 433,
+          "resn": "TYR",
+          "dmin": 3.4,
+          "tipos": [
+           "puente de hidrógeno (cadena lateral)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (cadena lateral)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "OH",
+            "lig": "O19",
+            "d": 3.4
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.7
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [],
+        "centro": [
+         0.44,
+         8.58,
+         0.44
+        ],
+        "n_cargados": [
+         "N7"
+        ],
+        "anillos": [
+         [
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": 8.58
+       }
+      ]
+     },
+     "iones": [],
+     "orientacion": {
+      "fuente": "geometría",
+      "detalle": "normal = autovector principal de los ejes de las hélices TM (iterado con la asignación TM); centro = media de los centros de las hélices; N-terminal hacia −y",
+      "espesor": 30.0,
+      "espesor_fuente": "inferido: valor típico (30 Å); OPM no tiene esta entrada",
+      "inferido": true
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 19,
+       "fin": 39,
+       "residuos": 21,
+       "inclinacion": 18.1,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 132,
+       "fin": 155,
+       "residuos": 24,
+       "inclinacion": 15.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 156,
+       "fin": 178,
+       "residuos": 23,
+       "inclinacion": 12.1,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 183,
+       "fin": 209,
+       "residuos": 27,
+       "inclinacion": 24.9,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 215,
+       "fin": 240,
+       "residuos": 26,
+       "inclinacion": 19.5,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 250,
+       "fin": 272,
+       "residuos": 23,
+       "inclinacion": 8.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 284,
+       "fin": 313,
+       "residuos": 30,
+       "inclinacion": 24.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 332,
+       "fin": 354,
+       "residuos": 23,
+       "inclinacion": 17.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 355,
+       "fin": 376,
+       "residuos": 22,
+       "inclinacion": 10.4,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 384,
+       "fin": 408,
+       "residuos": 25,
+       "inclinacion": 22.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 418,
+       "fin": 443,
+       "residuos": 26,
+       "inclinacion": 22.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 450,
+       "fin": 471,
+       "residuos": 22,
+       "inclinacion": 7.5,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "mitad N (TM1–6)": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6
+      ],
+      "mitad C (TM7–12)": [
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       19,
+       39
+      ],
+      [
+       43,
+       49
+      ],
+      [
+       128,
+       157
+      ],
+      [
+       158,
+       178
+      ],
+      [
+       181,
+       211
+      ],
+      [
+       213,
+       246
+      ],
+      [
+       249,
+       271
+      ],
+      [
+       284,
+       290
+      ],
+      [
+       291,
+       312
+      ],
+      [
+       313,
+       318
+      ],
+      [
+       319,
+       325
+      ],
+      [
+       327,
+       333
+      ],
+      [
+       334,
+       356
+      ],
+      [
+       356,
+       374
+      ],
+      [
+       375,
+       378
+      ],
+      [
+       380,
+       383
+      ],
+      [
+       384,
+       414
+      ],
+      [
+       418,
+       447
+      ],
+      [
+       448,
+       464
+      ],
+      [
+       465,
+       471
+      ]
+     ],
+     "compuertas": [],
+     "conformacion": {
+      "esperada": "ocluido hacia el lumen",
+      "inferida": "lado citosólico menos abierto que 8T6A (6.38 Å); lado luminal más abierto (1.75 Å)",
+      "motivo": "comparación relativa de la apertura MFS (medida propia); no es una clasificación absoluta",
+      "regla": "Medida propia para VMAT2: distancia entre los centroides de los extremos luminales (y > +8 Å)\n    y citosólicos (y < −8 Å) de los Cα TM del dominio N (TM1–6) y del dominio C (TM7–12).\n    Un valor menor = extremos más juntos = lado más cerrado.",
+      "coincide": null,
+      "titulo_pdb_menciona": null
+     },
+     "apertura_mfs": {
+      "luminal": 22.01,
+      "citosolica": 18.32
+     },
+     "archivo": "procesadas/8T69.pdb",
+     "avisos": []
+    },
+    {
+     "id": "8T6A",
+     "transportador": "VMAT2",
+     "titulo": "Human VMAT2 in complex with reserpine",
+     "metodo": "Electron Microscopy",
+     "resolucion": 3.17,
+     "cita": {
+      "titulo": "Mechanisms of neurotransmitter transport and drug inhibition in human VMAT2.",
+      "revista": "Nature",
+      "anio": "2023",
+      "doi": "10.1038/s41586-023-06727-9"
+     },
+     "deposito": "2023-06-15",
+     "cadena": "A",
+     "residuos": [
+      19,
+      477
+     ],
+     "huecos": [
+      [
+       54,
+       125
+      ]
+     ],
+     "n_atomos_proteina": 2903,
+     "mutaciones": [
+      {
+       "resi": "418",
+       "pdb": "SER",
+       "uniprot": "TYR",
+       "detalle": "engineered mutation"
+      }
+     ],
+     "ligando": {
+      "codigo": "YHR",
+      "codigo_pdb": "YHR",
+      "nombre": "reserpine",
+      "copias": [
+       {
+        "cadena": "A",
+        "resi": 601,
+        "residuos": [
+         {
+          "resi": 34,
+          "resn": "ASN",
+          "dmin": 3.28,
+          "tipos": [
+           "puente de hidrógeno (cadena lateral)"
+          ],
+          "tipo_principal": "puente de hidrógeno (cadena lateral)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "ND2",
+            "lig": "O18",
+            "d": 3.41
+           }
+          ]
+         },
+         {
+          "resi": 37,
+          "resn": "LEU",
+          "dmin": 3.8,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 225,
+          "resn": "LEU",
+          "dmin": 3.46,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.85
+           }
+          ]
+         },
+         {
+          "resi": 228,
+          "resn": "LEU",
+          "dmin": 3.73,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.73
+           }
+          ]
+         },
+         {
+          "resi": 232,
+          "resn": "VAL",
+          "dmin": 3.44,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.44
+           }
+          ]
+         },
+         {
+          "resi": 236,
+          "resn": "PRO",
+          "dmin": 3.48,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.48
+           }
+          ]
+         },
+         {
+          "resi": 305,
+          "resn": "ASN",
+          "dmin": 3.43,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 308,
+          "resn": "ILE",
+          "dmin": 3.36,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.36
+           }
+          ]
+         },
+         {
+          "resi": 312,
+          "resn": "GLU",
+          "dmin": 3.04,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.85
+           }
+          ]
+         },
+         {
+          "resi": 334,
+          "resn": "PHE",
+          "dmin": 3.46,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.46
+           }
+          ]
+         },
+         {
+          "resi": 338,
+          "resn": "SER",
+          "dmin": 3.75,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 341,
+          "resn": "TYR",
+          "dmin": 3.48,
+          "tipos": [
+           "catión–π",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "catión–π",
+          "pares": [
+           {
+            "tipo": "catión–π",
+            "prot": "anillo CG/CD1",
+            "lig": "N8",
+            "d": 4.27
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.48
+           }
+          ]
+         },
+         {
+          "resi": 395,
+          "resn": "ILE",
+          "dmin": 3.68,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.68
+           }
+          ]
+         },
+         {
+          "resi": 403,
+          "resn": "MET",
+          "dmin": 3.56,
+          "tipos": [
+           "van der Waals (≤ 4 Å, sin tipo específico)"
+          ],
+          "tipo_principal": "van der Waals (≤ 4 Å, sin tipo específico)",
+          "pares": []
+         },
+         {
+          "resi": 422,
+          "resn": "TYR",
+          "dmin": 3.35,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.64
+           }
+          ]
+         },
+         {
+          "resi": 425,
+          "resn": "ALA",
+          "dmin": 3.53,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.7
+           }
+          ]
+         },
+         {
+          "resi": 426,
+          "resn": "ASP",
+          "dmin": 3.75,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.98
+           }
+          ]
+         },
+         {
+          "resi": 429,
+          "resn": "PHE",
+          "dmin": 3.76,
+          "tipos": [
+           "hidrofóbico"
+          ],
+          "tipo_principal": "hidrofóbico",
+          "pares": [
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.82
+           }
+          ]
+         },
+         {
+          "resi": 433,
+          "resn": "TYR",
+          "dmin": 2.77,
+          "tipos": [
+           "puente de hidrógeno (cadena lateral)",
+           "hidrofóbico"
+          ],
+          "tipo_principal": "puente de hidrógeno (cadena lateral)",
+          "pares": [
+           {
+            "tipo": "puente de hidrógeno (cadena lateral)",
+            "prot": "OH",
+            "lig": "N21",
+            "d": 2.77
+           },
+           {
+            "tipo": "hidrofóbico",
+            "prot": "C",
+            "lig": "C",
+            "d": 3.73
+           }
+          ]
+         }
+        ],
+        "iones_cercanos": [],
+        "centro": [
+         0.59,
+         0.65,
+         2.79
+        ],
+        "n_cargados": [
+         "N8"
+        ],
+        "anillos": [
+         [
+          "C11",
+          "C12",
+          "C22",
+          "C23",
+          "N21"
+         ],
+         [
+          "C22",
+          "C23",
+          "C24",
+          "C25",
+          "C26",
+          "C27"
+         ],
+         [
+          "C33",
+          "C34",
+          "C35",
+          "C36",
+          "C37",
+          "C38"
+         ]
+        ],
+        "etiqueta": "S1",
+        "y_centro": 0.65
+       }
+      ]
+     },
+     "iones": [],
+     "orientacion": {
+      "fuente": "geometría",
+      "detalle": "normal = autovector principal de los ejes de las hélices TM (iterado con la asignación TM); centro = media de los centros de las hélices; N-terminal hacia −y",
+      "espesor": 30.0,
+      "espesor_fuente": "inferido: valor típico (30 Å); OPM no tiene esta entrada",
+      "inferido": true
+     },
+     "tm": [
+      {
+       "n": 1,
+       "ini": 19,
+       "fin": 43,
+       "residuos": 25,
+       "inclinacion": 23.3,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 2,
+       "ini": 130,
+       "fin": 155,
+       "residuos": 26,
+       "inclinacion": 20.9,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 3,
+       "ini": 156,
+       "fin": 178,
+       "residuos": 23,
+       "inclinacion": 7.3,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 4,
+       "ini": 183,
+       "fin": 207,
+       "residuos": 25,
+       "inclinacion": 21.7,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 5,
+       "ini": 218,
+       "fin": 241,
+       "residuos": 24,
+       "inclinacion": 8.0,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 6,
+       "ini": 249,
+       "fin": 272,
+       "residuos": 24,
+       "inclinacion": 16.5,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 7,
+       "ini": 284,
+       "fin": 315,
+       "residuos": 32,
+       "inclinacion": 23.4,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 8,
+       "ini": 334,
+       "fin": 354,
+       "residuos": 21,
+       "inclinacion": 29.0,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 9,
+       "ini": 355,
+       "fin": 375,
+       "residuos": 21,
+       "inclinacion": 10.8,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 10,
+       "ini": 384,
+       "fin": 408,
+       "residuos": 25,
+       "inclinacion": 20.1,
+       "direccion": "fuera→dentro"
+      },
+      {
+       "n": 11,
+       "ini": 419,
+       "fin": 443,
+       "residuos": 25,
+       "inclinacion": 18.3,
+       "direccion": "dentro→fuera"
+      },
+      {
+       "n": 12,
+       "ini": 451,
+       "fin": 471,
+       "residuos": 21,
+       "inclinacion": 15.6,
+       "direccion": "fuera→dentro"
+      }
+     ],
+     "tm_fuente": "geometría: cruces del plano medio de la membrana por la traza Cα suavizada, extendidos mientras |y| crece (<18 Å) por hélice anotada (_struct_conf) o dentro de la losa |y|<14 Å",
+     "grupos": {
+      "mitad N (TM1–6)": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6
+      ],
+      "mitad C (TM7–12)": [
+       7,
+       8,
+       9,
+       10,
+       11,
+       12
+      ]
+     },
+     "helices_anotadas": [
+      [
+       19,
+       53
+      ],
+      [
+       127,
+       157
+      ],
+      [
+       158,
+       179
+      ],
+      [
+       181,
+       211
+      ],
+      [
+       213,
+       226
+      ],
+      [
+       226,
+       246
+      ],
+      [
+       248,
+       270
+      ],
+      [
+       284,
+       289
+      ],
+      [
+       291,
+       310
+      ],
+      [
+       310,
+       319
+      ],
+      [
+       320,
+       323
+      ],
+      [
+       334,
+       356
+      ],
+      [
+       356,
+       375
+      ],
+      [
+       380,
+       383
+      ],
+      [
+       384,
+       414
+      ],
+      [
+       419,
+       448
+      ],
+      [
+       448,
+       464
+      ],
+      [
+       465,
+       471
+      ]
+     ],
+     "compuertas": [],
+     "conformacion": {
+      "esperada": "abierto al citosol",
+      "inferida": "lado citosólico más abierto que 8T69 (6.38 Å); lado luminal menos abierto (1.75 Å)",
+      "motivo": "comparación relativa de la apertura MFS (medida propia); no es una clasificación absoluta",
+      "regla": "Medida propia para VMAT2: distancia entre los centroides de los extremos luminales (y > +8 Å)\n    y citosólicos (y < −8 Å) de los Cα TM del dominio N (TM1–6) y del dominio C (TM7–12).\n    Un valor menor = extremos más juntos = lado más cerrado.",
+      "coincide": null,
+      "titulo_pdb_menciona": null
+     },
+     "apertura_mfs": {
+      "luminal": 20.26,
+      "citosolica": 24.7
+     },
+     "archivo": "procesadas/8T6A.pdb",
+     "avisos": []
+    }
+   ],
+   "morph": {
+    "base": "8T69",
+    "movil": "8T6A",
+    "superposicion": "todos los Cα comunes (MFS, sin andamio fijo)",
+    "n_ca": 383,
+    "rmsd_andamio": 3.48,
+    "rmsd_todos_ca": 3.48,
+    "n_ca_comunes": 383,
+    "angulo_normal_propia_vs_heredada": 1.3,
+    "interpolacion": "lineal en coordenadas cartesianas, calculada en el navegador; no es una trayectoria física",
+    "inferido": true
+   }
+  }
+ }
+}

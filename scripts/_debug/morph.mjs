@@ -1,0 +1,17 @@
+import { chromium } from 'playwright';
+const browser = await chromium.launch({ args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--allow-file-access-from-files'] });
+const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+const page = await ctx.newPage();
+page.on('console', (m) => { if (m.type() !== 'warning') console.log('[console]', m.type(), m.text().slice(0, 300)); });
+page.on('pageerror', (e) => console.log('[pageerror]', e.message));
+await page.goto('file:///home/user/coqueta-/dist/visor.html');
+await page.waitForSelector('html[data-listo="1"]');
+await page.click('.modos .seg[data-modo="estructura"]');
+await page.waitForSelector('#cargando.oculto', { state: 'attached' });
+await page.waitForTimeout(500);
+const t0 = Date.now();
+await page.click('#btn-morph');
+await page.waitForTimeout(3000);
+console.log('morph ms', Date.now() - t0, await page.evaluate(() => ({ rango: document.querySelector('#morph-rango').hidden, pressed: document.querySelector('#btn-morph').getAttribute('aria-pressed'), disabled: document.querySelector('#btn-morph').disabled, fase: document.querySelector('#fase').textContent })));
+await page.screenshot({ path: 'capturas/_debug-morph.png' });
+await browser.close();
